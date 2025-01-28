@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirovabad</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./img/band_icon.jpg" alt="logo">
+            <a href="#block_1" class="head_buttons">Концерты</a>
+            <a href="#block_2" class="head_buttons">Товары</a>
+            <a href="#block_3" class="head_buttons">Участники</a>
+            <a href="#block_4" class="head_buttons">О нас</a>
+            <button id="menu_button"><img src="./img/menu.png" alt="menu"></button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="intro">
+                <img id="intro_logo" src="./img/intro_logo.png" alt="logo">
+                <div id="intro_text"><h1>Наша контора любителей музыки выпустила новый крутой альбом в стиле индастриал-метала, хард-рока и пост-панка. 
+                    Сию новинку можно послушать прямо сейчас на любых популярных платформах.</h1></div>
+                <img id="intro_album" src="./img/intro_album.png" alt="album">
+                <img id="intro_vinyl" src="./img/intro_vinyl.png" alt="vinil">
+            </div>
+        </section>
+        <section id="block_1">
+            <h1 class="title">Ближайшие Концерты</h1>
+            <div class="time_table">
+                <table>
+                    <thead>
+                        <th>Дата</th>
+                        <th>Место</th>
+                        <th class="time_table_time">Время</th>
+                        <th class="time_table_price">Цена</th>
+                        <th id="buy_ticket">Билеты</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>29.06.25</td>
+                            <td>Баку</td>
+                            <td class="time_table_time">18:00</td>
+                            <td class="time_table_price">1600₽</td>
+                            <td id="buy_ticket_button"><button>Купить</button></td>
+                        </tr>
+                        <tr>
+                            <td>13.07.25</td>
+                            <td>Гянджа</td>
+                            <td class="time_table_time">16:00</td>
+                            <td class="time_table_price">1400₽</td>
+                            <td id="buy_ticket_button"><button>Купить</button></td>
+                        </tr>
+                        <tr>
+                            <td>27.07.25</td>
+                            <td>Москва</td>
+                            <td class="time_table_time">20:30</td>
+                            <td class="time_table_price">3800₽</td>
+                            <td id="buy_ticket_button"><button>Купить</button></td>
+                        </tr>
+                        <tr>
+                            <td>10.08.25</td>
+                            <td>Казань</td>
+                            <td class="time_table_time">14:30</td>
+                            <td class="time_table_price">2600₽</td>
+                            <td id="buy_ticket_button"><button>Купить</button></td>
+                        </tr>
+                        <tr>
+                            <td>24.08.25</td>
+                            <td>Петербург</td>
+                            <td class="time_table_time">21:00</td>
+                            <td class="time_table_price">3400₽</td>
+                            <td id="buy_ticket_button"><button>Купить</button></td>
+                        </tr>
+                        <tr>
+                            <td>07.09.25</td>
+                            <td>Минск</td>
+                            <td class="time_table_time">19:30</td>
+                            <td class="time_table_price">3000₽</td>
+                            <td id="buy_ticket_button"><button>Купить</button></td>
+                        </tr>
+                        <tr>
+                            <td>21.09.25</td>
+                            <td>Таллин</td>
+                            <td class="time_table_time">15:00</td>
+                            <td class="time_table_price">3200₽</td>
+                            <td id="buy_ticket_button"><Button>Купить</Button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="block_2">
+            <h1 class="title">Наши Товары</h1>
+            <div class="merch">
+                <div class="product-info">
+                    <img src="./img/merch_1.jpg" alt="Товар 1" class="product-image">
+                    <h3 class="product-name">Футболка</h3>
+                    <p class="product-description">Футболка с надписью Kirovabad</p>
+                    <div class="product-price">1850₽</div>
+                    <button class="add-to-cart">Заказать</button>
+                </div>
+                <div class="product-info">
+                    <img src="./img/merch_2.jpg" alt="Товар 1" class="product-image">
+                    <h3 class="product-name">Худи</h3>
+                    <p class="product-description">Худи с надписью Kirovabad</p>
+                    <div class="product-price">4200₽</div>
+                    <button class="add-to-cart">Заказать</button>
+               </div>
+                <div class="product-info">
+                    <img src="./img/merch_3.jpg" alt="Товар 1" class="product-image">
+                    <h3 class="product-name">Значёк</h3>
+                    <p class="product-description">Значёк с логотипом Kirovabad</p>
+                    <div class="product-price">250₽</div>
+                    <button class="add-to-cart">Заказать</button>
+                </div>
+                <div class="product-info">
+                    <img src="./img/merch_4.jpg" alt="Товар 1" class="product-image">
+                    <h3 class="product-name">Кружка</h3>
+                    <p class="product-description">Кружка с логотипом Kirovabad</p>
+                    <div class="product-price">850₽</div>
+                    <button class="add-to-cart">Заказать</button>
+                </div>
+                <div class="product-info">
+                    <img src="https://via.placeholder.com/250" alt="Товар 1" class="product-image">
+                    <h3 class="product-name">Товар 1</h3>
+                    <p class="product-description">Краткое описание товара 1.</p>
+                    <div class="product-price">1 999 ₽</div>
+                    <button class="add-to-cart">Заказать</button>
+                </div>
+                <div class="product-info">
+                    <img src="https://via.placeholder.com/250" alt="Товар 1" class="product-image">
+                    <h3 class="product-name">Товар 1</h3>
+                    <p class="product-description">Краткое описание товара 1.</p>
+                    <div class="product-price">1 999 ₽</div>
+                    <button class="add-to-cart">Заказать</button>
+                </div>
+                <div class="product-info">
+                    <img src="https://via.placeholder.com/250" alt="Товар 1" class="product-image">
+                    <h3 class="product-name">Товар 1</h3>
+                    <p class="product-description">Краткое описание товара 1.</p>
+                    <div class="product-price">1 999 ₽</div>
+                    <button class="add-to-cart">Заказать</button>
+                </div>
+                <div class="product-info">
+                    <img src="https://via.placeholder.com/250" alt="Товар 1" class="product-image">
+                    <h3 class="product-name">Товар 1</h3>
+                    <p class="product-description">Краткое описание товара 1.</p>
+                    <div class="product-price">1 999 ₽</div>
+                    <button class="add-to-cart">Заказать</button>
+                </div>
+            </div>
+        </section>
+       <section id="block_3">
+            <h1 class="title">Участники Коллектива</h1>
+            <div class="band_member">
+            <div class="member_block_1">
+                <img class="member_image" src="./img/Mr_Jam.png" alt="Profile Mister Jam">
+                <div class="member_block-info">
+                    <h1>Мистер Джем</h1>
+                    <h3>-Джамал-</h3>
+                    <h4>Фронтмен Коллектива</h4>
+                    <h4>Основные инструменты: Гитара, Виолончель, Скрипка</h4>
+                    <h4>Краткое описание: Пусть он и выглядит жутко и грозно но Мистер Джем идеальный товарищ</h4>
+                </div>
+                <button>Подробнее</button>
+            </div>
+            <div class="member_block_2">
+                <img class="member_image" src="./img/Mis_Sasha.png" alt="Profile Mister Jam">
+                <div class="member_block-info">
+                    <h1>Барабанщица</h1>
+                    <h3>-Александра-</h3>
+                    <h4>Ударник Коллектива</h4>
+                    <h4>Основные инструменты: Ударная Установка и Прочие Шумовые Инструменты</h4>
+                    <h4>Краткое описание: Стучит громко и порой можно оглохнуть но добрая женщина</h4>
+                </div>
+                <button>Подробнее</button>
+            </div>
+            <div class="member_block_3">
+                <img class="member_image" src="./img/Mr_Schum.png" alt="Profile Mister Jam">
+                <div class="member_block-info">
+                    <h1>Мистер Шум</h1>
+                    <h3>-Наид-</h3>
+                    <h4>Басист Коллектива</h4>
+                    <h4>Основные инструменты: Бас-Гитара, Контрабас</h4>
+                    <h4>Краткое описание: Пожалуйста, хватит шутить. Мистера Шума слышно и ещё как, да и он ангел во плоти</h4>
+                </div>
+                <button>Подробнее</button>
+            </div>
+            <div class="member_block_4">
+                <img class="member_image" src="./img/Mr_Klav.png" alt="Profile Mister Jam">
+                <div class="member_block-info">
+                    <h1>Пианист</h1>
+                    <h3>-Аскер-</h3>
+                    <h4>Клавишник Коллектива</h4>
+                    <h4>Основные инструменты: Синтезатор, Пианино</h4>
+                    <h4>Краткое описание: Имеет очень крутой вокал. Дружелюбен но имеет суицидальные мысли когда видит ишаков</h4>
+                </div>
+                <button>Подробнее</button>
+            </div>
+            </div>
+       </section>
+       <section id="block_4" class="about_section">
+            <h1 class="title">О нас</h1>
+            <div class="about_content">
+                <div class="about_text">
+                  <h3>Мы группа любителей музыки, которая специализируется на написании кавер-версий известных песен.
+                    А в последнее время мы начали заниматься авторским контентом.</h3>
+                  <p>Мы не просто играем музыку, мы в своих текстах затрагиваем порой самые жестокие темы и пороки общества 
+                    и даём нашим слушателся задуматся о жизни и морали. 
+                    Весь индастриал-метал состоит из таких тем ведь его призвание отрыть людям глаза на мир.</p>
+                  <p>Каждый из нас приносит в группу свою уникальность — будь то мощный и грубый вокал с тяжёлыми риффами 
+                    на гитаре от Мистера Джема, ритмический хаос на барабанах от ударника или интенсивный бас 
+                    Мистера Шума каторого слышно за километры.
+                    Мы стремимся к звучанию, которое будет говорить прямо с вами напрямую и передовать наши чувства и эмоции.</p>
+                </div>
+              </div>
+       </section>
+       <section class="our_music">
+                <h1 class="title">Наша дискография</h1>
+                <div class="album">
+                <p>(НОВИНКА)Альбом Эмоциональ</p>
+                <ul class="tracklist">
+                    <li>
+                        <span class="track-name">Kirovabad - Радость</span>
+                        <div class="player">
+                            <audio controls>
+                                <source src="./audio/Rammstein - Das Modell.mp3" type="audio/mp3">
+                                Ваш браузер не поддерживает аудио.
+                            </audio>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="track-name">Kirovabad - Ярость</span>
+                        <div class="player">
+                            <audio controls>
+                                <source src="./audio/Rammstein - Bück dich.mp3" type="audio/mp3">
+                                Ваш браузер не поддерживает аудио.
+                            </audio>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="track-name">Kirovabad - Страх</span>
+                        <div class="player">
+                            <audio controls>
+                                <source src="./audio/Rammstein - Angst.mp3" type="audio/mp3">
+                                Ваш браузер не поддерживает аудио.
+                            </audio>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="track-name">Kirovabad - Грусть</span>
+                        <div class="player">
+                            <audio controls>
+                                <source src="./audio/Rammstein - Klavier.mp3" type="audio/mp3">
+                                Ваш браузер не поддерживает аудио.
+                            </audio>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="track-name">Kirovabad - Зависть</span>
+                        <div class="player">
+                            <audio controls>
+                                <source src="./audio/Rammstein - Eifersucht.mp3" type="audio/mp3">
+                                Ваш браузер не поддерживает аудио.
+                            </audio>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="track-name">Kirovabad - Паника</span>
+                        <div class="player">
+                            <audio controls>
+                                <source src="./audio/Rammstein - Mein Herz Brennt.mp3" type="audio/mp3">
+                                Ваш браузер не поддерживает аудио.
+                            </audio>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+       </section>
+    </main>
+    <footer>
+        <div class="social_links">
+            <a href="#"><img src="./icons/youtube_icon.png" alt="You Tube"></a>
+            <a href="#"><img src="./icons/vk_music_icon.png" alt="VK Music"></a>
+            <a href="#"><img src="./icons/yandex_music_icon.png" alt="Yandex Music"></a>
+            <a href="#"><img src="./icons/spotify_icon.png" alt="Spotify"></a>
+            <a href="#"><img src="./icons/instagram_icon.png" alt="Instagram"></a>
+            <a href="#"><img src="./icons/facebook_icon.png" alt="Facebook"></a>
+        </div>
+        <p>© 2025 Официальный сайт музыкального коллектива Kirovabad</p>
+        <p>-Все права защищены и занки запатентованны-</p>
+        <p><a href="#">Политика конфиденциальности</a> | <a href="#">Условия использования</a></p>
+    </footer>
+</body>
+</html>
