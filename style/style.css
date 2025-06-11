@@ -322,7 +322,7 @@ td:hover{
     background-color: rgb(240, 10, 0);
     color: white;
     padding: 10px 20px;
-    font-size: large;
+    font-size: larger;
     cursor: pointer;
     transition: 0.4s ease;
     &:hover{
@@ -342,61 +342,43 @@ td:hover{
     justify-content: center;
 }
 
-.member_block_1{
+.member_container{
     width: 90vw;
     height: 500px;
-    color: white;
     border: 5px solid black;
-    text-shadow: 0 0 10px black;
     box-shadow: 0 0 25px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#member_1{
+    color: white;
+    text-shadow: 0 0 10px black;
     background: linear-gradient(120deg, pink, red, red, rgb(200, 0, 0));
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
-.member_block_2{
-    width: 90vw;
-    height: 500px;
+#member_2{
     color: black;
-    border: 5px solid black;
     text-shadow: 0 0 10px white;
-    box-shadow: 0 0 25px black;
     background: linear-gradient(120deg, rgb(255, 255, 100), rgb(255, 220, 0), rgb(255, 220, 0), rgb(200, 180, 0));
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
-.member_block_3{
-    width: 90vw;
-    height: 500px;
+#member_3{
     color: black;
-    border: 5px solid black;
     text-shadow: 0 0 10px white;
-    box-shadow: 0 0 25px black;
     background: linear-gradient(120deg, white, rgb(200, 200, 200), rgb(200, 200, 200), gray);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
-.member_block_4{
-    width: 90vw;
-    height: 500px;
+#member_4{
     color: white;
-    border: 5px solid black;
     text-shadow: 0 0 10px black;
-    box-shadow: 0 0 25px black;
     background: linear-gradient(120deg, gray, rgb(55, 55, 55), rgb(55, 55, 55), rgb(10, 10, 10));
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .member_image{
-    width: 400px;
-    height: 400px;
+    width: 410px;
+    height: 410px;
     border: 5px solid black;
 }
 
@@ -407,7 +389,7 @@ td:hover{
     border: 3px solid black;
     outline: none;
     text-decoration: none;
-    font-size: larger;
+    font-size: x-large;
     font-weight: 700;
     transition: 0.4s ease;
     &:hover{
@@ -497,7 +479,6 @@ td:hover{
     background-color: rgb(240, 10, 0);
     color: white;
     border: none;
-
     padding: 10px 15px;
     font-size: large;
     cursor: pointer;
